@@ -1,0 +1,759 @@
+ <!-- font awesome cdn link  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+ <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+ <!-- custom css file link  -->
+ <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+ <!-- header section starts     -->
+
+ <section class="header">
+
+   <a href="#" class="logo"> <i class="fa fa-leaf"></i> flowers. </a>
+
+   <div class="topnav navbar" id="myTopnav">
+    <a href="#home" class="active">home</a>
+    <a href="#about">about</a>
+    <a href="#flowers">flowers</a>
+    <a href="#gallery">gallery</a>
+    <a href="#order">order</a>
+    <a href="#blogs">blogs</a>
+    </div>
+    
+    <ul class="menu">
+      <li class="menu-item menu-item-has-children">
+         <a href="#" data-toggle="sub-menu">Testimonials <i class="plus"></i></a>
+         <ul class="sub-menu">
+             <li class="menu-item"><a href="./testimonial1.html">Testimonial 1</a></li>
+             <li class="menu-item"><a href="./testimonial2.html">Testimonials 2</a></li>
+         </ul>
+      </li>
+  </ul>
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+ </section>
+
+ <!-- header section ends    -->
+
+ <!-- home section starts  -->
+
+ <section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+     <div class="swiper-wrapper">
+
+       <div class="swiper-slide slide" style="background: url(images/image1.jpg) no-repeat;">
+         <div class="content">
+           <span>outstanding flowers</span>
+           <h3>beautiful flowers.</h3>
+           <a href="#" class="btn">get started</a>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide" style="background: url(images/image5.jpg) no-repeat;">
+         <div class="content">
+           <span>outstanding flowers</span>
+           <h3>Red tulips on vase.</h3>
+           <a href="#" class="btn">get started</a>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide" style="background: url(images/image3.jpg) no-repeat;">
+         <div class="content">
+           <span>outstanding flowers</span>
+           <h3>red roses</h3>
+           <a href="#" class="btn">get started</a>
+         </div>
+       </div>
+
+     </div>
+
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+
+   </div>
+
+ </section>
+
+ <!-- home section ends -->
+
+ <!-- about section starts  -->
+
+ <section class="about" id="about">
+
+   <div class="image">
+     <img src="images/image10.webp" alt="">
+   </div>
+
+   <div class="content">
+     <h3 class="title">welcome to our flowershop</h3>
+     <p>We are new in town and we propose for you a range of variety flowers:roses,lily,tulips.</p>
+     <a href="#" class="btn">read more</a>
+     <div class="icons-container">
+       <div class="icons">
+         <img src="images/flori.jpg" alt="">
+         <h3>quality flowers</h3>
+       </div>
+       <div class="icons">
+         <img src="images/image18.jpg" alt="">
+         <h3>flowers for wedding</h3>
+       </div>
+       <div class="icons">
+         <img src="images/image6.jpg" alt="">
+         <h3>spring flowers</h3>
+       </div>
+     </div>
+   </div>
+
+ </section>
+
+ <!-- about section ends -->
+
+ <!-- flowers section starts  -->
+
+ <section class="flowers" id="flowers">
+
+   <div class="heading">
+     <span>popular flowers</span>
+     <h3>most wanted flowers</h3>
+   </div>
+
+   <div class="swiper flowers-slider">
+
+     <div class="swiper-wrapper">
+
+       <div class="swiper-slide slide" data-name="flowers-1">
+         <img src="images/image1.jpg" alt="">
+         <h3>beautiful roses </h3>
+         <div class="price">$40</div>
+       </div>
+
+       <div class="swiper-slide slide" data-name="flowers-2">
+         <img src="images/image15.jpg" alt="">
+         <h3>10 Pink Roses</h3>
+         <div class="price">$15</div>
+       </div>
+
+       <div class="swiper-slide slide" data-name="flowers-3">
+         <img src="images/image3.jpg" alt="">
+         <h3>30 Red Roses</h3>
+         <div class="price">$55</div>
+       </div>
+
+       <div class="swiper-slide slide" data-name="flowers-4">
+         <img src="images/image4.jpg" alt="">
+         <h3>Multicolor Tulips</h3>
+         <div class="price">$15</div>
+       </div>
+
+       <div class="swiper-slide slide" data-name="flowers-5">
+         <img src="images/image5.jpg" alt="">
+         <h3>Red Tulips</h3>
+         <div class="price">$10</div>
+       </div>
+
+     </div>
+
+     <div class="swiper-pagination"></div>
+
+   </div>
+
+ </section>
+
+ <!-- flowers section ends -->
+
+ <!-- flowers preview section starts  -->
+
+ <section class="flowers-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="flowers-preview" data-target="flowers-1">
+     <img src="images/image1.jpg" alt="">
+     <h3>Beautiful Flowers</h3>
+     <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+     </div>
+     <p>Time for buying flowers!</p>
+     <div class="price">$19.99</div>
+     <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="flowers-preview" data-target="flowers-2">
+     <img src="images/image15.jpg" alt="">
+     <h3>Beautiful flowers</h3>
+     <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+     </div>
+     
+     <div class="price">$49.99</div>
+     <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="flowers-preview" data-target="flowers-3">
+     <img src="images/image3.jpg" alt="">
+     <h3>Beautiful Flowers</h3>
+     <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+     </div>
+     
+     <div class="price">$49.99</div>
+     <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="flowers-preview" data-target="flowers-4">
+     <img src="images/image4.jpg" alt="">
+     <h3>Beautiful Flowers</h3>
+     <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+     </div>
+     
+     <div class="price">$49.99</div>
+     <a href="#" class="btn">buy now</a>
+   </div>
+
+   <div class="flowers-preview" data-target="flowers-5">
+     <img src="images/image5.jpg" alt="">
+     <h3>Beautiful Flowers</h3>
+     <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+     </div>
+    
+     <div class="price">$49.99</div>
+     <a href="#" class="btn">buy now</a>
+   </div>
+
+ </section>
+
+ <!-- flowers preview section ends -->
+
+ <!-- gallery section starts  -->
+
+ <section class="gallery" id="gallery">
+
+   <div class="heading">
+     <span>our gallery</span>
+     <h3>our untold stories</h3>
+   </div>
+
+   <div class="gallery-container">
+
+     <a href="images/image6.jpg" class="box">
+       <img src="images/image6.jpg" alt="">
+       <div class="icon"> <i class="fas fa-plus"></i> </div>
+     </a>
+
+     <a href="images/image13.jpeg" class="box">
+       <img src="images/image13.jpeg" alt="">
+       <div class="icon"> <i class="fas fa-plus"></i> </div>
+     </a>
+
+     <a href="images/image15.jpg" class="box">
+       <img src="images/image15.jpg" alt="">
+       <div class="icon"> <i class="fas fa-plus"></i> </div>
+     </a>
+
+     <a href="images/image19.jpg" class="box">
+       <img src="images/image19.jpg" alt="">
+       <div class="icon"> <i class="fas fa-plus"></i> </div>
+     </a>
+
+     <a href="images/image9.jpg" class="box">
+       <img src="images/image9.jpg" alt="">
+       <div class="icon"> <i class="fas fa-plus"></i> </div>
+     </a>
+
+     <a href="images/image11.jpg" class="box">
+       <img src="images/image11.jpg" alt="">
+       <div class="icon"> <i class="fas fa-plus"></i> </div>
+     </a>
+
+   </div>
+
+ </section>
+
+ <!-- gallery section ends -->
+
+ <!-- menu section starts  -->
+
+ <section class="menu" id="menu">
+
+   <div class="heading">
+     <span>our menu</span>
+     <h3>our popular flowers for this spring and summer</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+     <div class="swiper-wrapper">
+
+       <div class="swiper-slide slide">
+         <h3 class="title">flowers spring</h3>
+         <div class="box-container">
+           <div class="box">
+             <div class="info">
+               <h3>flowers you should order this spring</h3>
+               <p>White,Pink,Purple Peonies</p>
+             </div>
+             <div class="price">$10</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Beautiful tulips in every colour you want</h3>
+               <p>It's springtime and you don't know what kind of flowers to pick?Choose tulips.</p>
+             </div>
+             <div class="price">$20</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Romantic Roses</h3>
+               <p>Do you want to buy a present for your girlfriend or mom?Choose to buy roses</p>
+             </div>
+             <div class="price">$30</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Peonies</h3>
+               <p>Red,White,Pink Peonies perfect for this spring.</p>
+             </div>
+             <div class="price">$25</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Orchid</h3>
+               <p>Do you want a fancy flower?Try orchid.</p>
+             </div>
+             <div class="price">$45</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Beautiful lily</h3>
+               <p>White,roses and orange lily.</p>
+             </div>
+             <div class="price">$15</div>
+           </div>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <h3 class="title">summmer flowers</h3>
+         <div class="box-container">
+           <div class="box">
+             <div class="info">
+               <h3>Red and white roses</h3>
+               <p>Always good for every ocasion.</p>
+             </div>
+             <div class="price">$30</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>liliac</h3>
+               <p>Do you want a strong fragrance?Choose liliac.</p>
+             </div>
+             <div class="price">$15</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>White flowers for wedding</h3>
+               <p>Roses</p>
+             </div>
+             <div class="price">$10</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>A huge bouqouet of roses only for special ocasions.</h3>
+               <p>150 Red Roses</p>
+             </div>
+             <div class="price">$200</div>
+           </div>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <h3 class="title">fall flowers</h3>
+         <div class="box-container">
+           <div class="box">
+             <div class="info">
+               <h3>red roses</h3>
+               <p>a perfect choose</p>
+             </div>
+             <div class="price">$70</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>white roses</h3>
+               <p>perfect for wedding</p>
+             </div>
+             <div class="price">$60</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>pink roses</h3>
+               <p>Try it</p>
+             </div>
+             <div class="price">$20</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>orchid</h3>
+               <p>Orchid</p>
+             </div>
+             <div class="price">$30</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Poppies</h3>
+               <p>Poppies</p>
+             </div>
+             <div class="price">$29.99</div>
+           </div>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <h3 class="title">Christmas Time decorations</h3>
+         <div class="box-container">
+           <div class="box">
+             <div class="info">
+               <h3>Winter decorations and gift ideas</h3>
+               <p>We have a variety of winter decorations,flowers'arrangements perfect for holiday time.</p>
+             </div>
+             <div class="price">$25</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>flowers on snow decorations</h3>
+               <p>We propose for this Christmas new arrival decorations</p>
+             </div>
+             <div class="price">$18</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Teddy Bear made of flowers</h3>
+               <p>Offer a beautiful gift for this holiday season.</p>
+             </div>
+             <div class="price">$25</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Red heart made of flower</h3>
+               <p>Red heart made of red roses</p>
+             </div>
+             <div class="price">$40.</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Christmas candles</h3>
+               <p>Perfect for christmas table.</p>
+             </div>
+             <div class="price">$12</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Christmas flower red</h3>
+               <p>Poinsettia</p>
+             </div>
+             <div class="price">$7</div>
+           </div>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <h3 class="title">Valentines Day </h3>
+         <div class="box-container">
+           <div class="box">
+             <div class="info">
+               <h3>100 Red Roses for your girlfriend</h3>
+               <p>Surprise your wife or girlfriend with a huge bouquet of roses to show your love</p>
+             </div>
+             <div class="price">$200</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>White and Red Roses</h3>
+               <p>The perfect mix of flowers to get.</p>
+             </div>
+             <div class="price">$250</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>Teddy bear made of flower</h3>
+               <p>Teddy bear made of red roses perfect for VDay</p>
+             </div>
+             <div class="price">$150</div>
+           </div>
+           <div class="box">
+             <div class="info">
+               <h3>White roses</h3>
+               <p>White roses are romantic to offer</p>
+             </div>
+             <div class="price">$110</div>
+           </div>
+         </div>
+       </div>
+
+     </div>
+
+     <div class="swiper-pagination"></div>
+
+   </div>
+
+ </section>
+
+ <!-- menu section ends -->
+
+ <!-- order section starts  -->
+
+ <section class="order" id="order">
+
+   <div class="heading">
+     <span>order now</span>
+     <h3>fast home delivery</h3>
+   </div>
+
+   <form action="order.php" method="post">
+     <div class="box-container">
+       <div class="box">
+         <div class="inputBox">
+           <span>Username</span>
+           <input type="text" name="username" placeholder="enter your name">
+         </div>
+         <div class="inputBox">
+           <span>flowers name</span>
+           <input type="text" name="flowersName" placeholder="flowers you want">
+         </div>
+         <div class="inputBox">
+           <span>order details</span>
+           <input type="text" name="orderDetails" placeholder="specifics with flowers">
+         </div>
+         <div class="inputBox">
+           <span>your address</span>
+           <textarea name="userAddress" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+         </div>
+       </div>
+       <div class="box">
+         <div class="inputBox">
+           <span>status</span>
+           <input type="text" name="orderStatus" placeholder="None" readonly>
+         </div>
+         <div class="inputBox">
+           <span>how much</span>
+           <input type="number" name="productQuatity" placeholder="how many you want">
+         </div>
+         <div class="inputBox">
+           <span>when you want</span>
+           <input type="datetime-local" name="orderDateTime">
+         </div>
+       </div>
+     </div>
+     <input type="submit" value="order now" class="btn">
+   </form>
+
+ </section>
+
+ <!-- order section ends -->
+
+ <!-- blogs section starts  -->
+
+ <section class="blogs" id="blogs">
+
+   <div class="heading">
+     <span>our blogs</span>
+     <h3>our latest posts</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+     <div class="swiper-wrapper">
+
+       <div class="swiper-slide slide">
+         <div class="image">
+           <img src="images/lily.jpg" alt="">
+           <span>White Stunning Lily</span>
+         </div>
+         <div class="content">
+           <div class="icon">
+             <a href="#"> <i class="fa fa-tags"></i> Price </a>
+             <a href="#"> <i class="fa fa square-dollar"></i> 17$ </a>
+           </div>
+           <a href="#" class="title">Red and white roses</a>
+           <p>Dont'you know what to buy for mom's or girlfriend birthday?We have the best solution</p>
+           <a href="#" class="btn">read more</a>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <div class="image">
+           <img src="images/image10.webp" alt="">
+           <span>Red and white roses</span>
+         </div>
+         <div class="content">
+           <div class="icon">
+             <a href="#"> <i class="fa fa-tags"></i> Price </a>
+             <a href="#"> <i class="fa fa square-dollar"></i> 25$ </a>
+           </div>
+           <a href="#" class="title">Red and white roses</a>
+           <p>Dont'you know what to buy for mom's or girlfriend birthday?We have the best solution</p>
+           <a href="#" class="btn">read more</a>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <div class="image">
+           <img src="images/image4.jpg" alt="">
+           <span>Multicolor tulips</span>
+         </div>
+         <div class="content">
+           <div class="icon">
+             <a href="#"> <i class="fa fa-tags"></i> Price </a>
+             <a href="#"> <i class="fa fa square-dollar"></i> 50$ </a>
+           </div>
+           <a href="#" class="title">Beautiful Tulips</a>
+           <p>Try our new red,yellow and white tulips.</p>
+           <a href="#" class="btn">read more</a>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <div class="image">
+           <img src="images/image9.jpg" alt="">
+           <span>Purple Roses</span>
+         </div>
+         <div class="content">
+           <div class="icon">
+             <a href="#"> <i class="fa fa-tags"></i> Price </a>
+             <a href="#"> <i class="fa fa square-dollar"></i> 5$ </a>
+           </div>
+           <a href="#" class="title">Purple and pink roses</a>
+           <p>10 Purple and Pink Roses</p>
+           <a href="#" class="btn">read more</a>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <div class="image">
+           <img src="images/bujori.jpg" alt="">
+           <span>Beautiful Peonies</span>
+         </div>
+         <div class="content">
+           <div class="icon">
+             <a href="#"> <i class="fa fa-tags"></i> Price </a>
+             <a href="#"> <i class="fa fa square-dollar"></i> 30$ </a>
+           </div>
+           <a href="#" class="title">Spring flowers</a>
+           <p>Dont' you know what kind of flowers to order for this spring?We'll help you.</p>
+           <a href="#" class="btn">read more</a>
+         </div>
+       </div>
+
+       <div class="swiper-slide slide">
+         <div class="image">
+           <img src="images/orhidee.jpg" alt="">
+           <span>Orchid</span>
+         </div>
+         <div class="content">
+           <div class="icon">
+             <a href="#"> <i class="fa fa-tags"></i> Price </a>
+             <a href="#"> <i class="fa fa square-dollar"></i> 15$ </a>
+           </div>
+           <a href="#" class="title">New arrival </a>
+           <p>Beautiful orchid perfect for your home design.</p>
+           <a href="#" class="btn">read more</a>
+         </div>
+       </div>
+
+     </div>
+
+     <div class="swiper-pagination"></div>
+
+   </div>
+
+ </section>
+
+ <!-- blogs section ends -->
+
+ <!-- footer section starts  -->
+
+ <section class="footer">
+
+   <div class="icons-container">
+
+     <div class="icons">
+       <i class="fas fa-clock"></i>
+       <h3>opening hours</h3>
+       <p>10:00AM to 10:00PM</p>
+     </div>
+
+     <div class="icons">
+       <i class="fas fa-phone"></i>
+       <h3>phone</h3>
+       <p>+40768154277</p>
+       <p>+0249413017</p>
+     </div>
+
+     <div class="icons">
+       <i class="fas fa-envelope"></i>
+       <h3>email</h3>
+       <p>andracriveanu99@gmail.com</p>
+       <p>criveanuandra99@gmail.com</p>
+     </div>
+
+     <div class="icons">
+       <i class="fas fa-map"></i>
+       <h3>address</h3>
+       <p>Craiova,Dolj</p>
+     </div>
+
+   </div>
+
+   <div class="share">
+     <a href="#" class="fab fa-facebook-f"></a>
+     <a href="#" class="fab fa-twitter"></a>
+     <a href="#" class="fab fa-instagram"></a>
+     <a href="#" class="fab fa-linkedin"></a>
+   </div>
+   </section>
+
+ <!-- footer section ends  -->
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+ <!-- custom js file link  -->
+ <script src="./index.js"></script>
+
+ <script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+ </script>
+
+</body>
+
+</html>
