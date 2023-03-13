@@ -1,5 +1,5 @@
 # florarie
-
+I created a Responsive WebSite FlowerShop using HTML,CSS,JavaScript and also I used backend PHP and MySql
 
 
 
